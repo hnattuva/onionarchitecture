@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Domain.Interface\IPositionRepository.cs" />
+    <Compile Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Domain.Interface\bin\Debug\netcoreapp2.0\Domain.Entities.dll" />
+    <None Remove="Domain.Interface\bin\Debug\netcoreapp2.0\Domain.Entities.pdb" />
+    <None Remove="Domain.Interface\bin\Debug\netcoreapp2.0\Domain.Interface.deps.json" />
+    <None Remove="Domain.Interface\bin\Debug\netcoreapp2.0\Domain.Interface.dll" />
+    <None Remove="Domain.Interface\bin\Debug\netcoreapp2.0\Domain.Interface.pdb" />
+    <None Remove="Domain.Interface\obj\Domain.Interface.csproj.nuget.cache" />
+    <None Remove="Domain.Interface\obj\Domain.Interface.csproj.nuget.g.props" />
+    <None Remove="Domain.Interface\obj\Domain.Interface.csproj.nuget.g.targets" />
+    <None Remove="Domain.Interface\obj\project.assets.json" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.AssemblyInfoInputs.cache" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.csproj.CopyComplete" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.csproj.CoreCompileInputs.cache" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.csproj.FileListAbsolute.txt" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.csprojResolveAssemblyReference.cache" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.dll" />
+    <None Remove="Domain.Interface\obj\Debug\netcoreapp2.0\Domain.Interface.pdb" />
+  </ItemGroup>
+</Project>
